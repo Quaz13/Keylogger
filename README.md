@@ -1,26 +1,58 @@
-# Overview:
-This project is a simple keylogger written in Python using the pynput library. The keylogger captures and logs every keystroke made on the keyboard and saves them to a log file. Additionally, on macOS, the terminal window is minimized automatically when the script is launched, making it less conspicuous.
+## AI-Assisted Keylogger (Educational Project)
+Overview
 
-# Features:
-Keystroke Logging: Captures all keystrokes and saves them to a log file (Keylogger.log).  
+This project is a simple keylogger written in Python, built in collaboration with ChatGPT AI as my first step into the world of AI-assisted “vibe coding.”
+It’s an educational exploration into how AI can help brainstorm, design, and code simple automation tools — responsibly and transparently.
 
-Minimizes Terminal Window (macOS): Automatically minimizes the terminal window upon script execution, making the keylogger run discreetly in the background.
-# Requirements
+The script uses the pynput library to capture and log keyboard input and demonstrates how Python can interact with system-level events. On macOS, it even minimizes the terminal automatically, showing how small touches can make background scripts feel more seamless.
+
+## Features
+
+Keystroke Logging — Captures all keyboard input and saves it to Keylogger.log.
+
+macOS Stealth Mode — Minimizes the Terminal window automatically on launch.
+
+AI Collaboration — Entirely co-coded with ChatGPT as part of an exploration into AI-powered programming workflows.
+
+## Requirements
+
 Python 3.x
 
 pynput library
-# Installation
-1. Clone the repository or download the source code.
-2. Install the required Python library using pip:
+
+## Installation
+
+Clone or download the repository.
+
+Install dependencies:
+```
 pip install pynput
-3. Run the keylogger script: python3 keylogger.py
+```
 
-# Usage
-The keylogger will start capturing keystrokes as soon as it's executed.
-On macOS, the terminal window will be minimized automatically after the script starts running.
-Press the ESC key to stop the keylogger.
+Run the script:
+```
+python3 keylogger.py
+```
+## Usage
 
-# Log File
-The captured keystrokes are saved to Keylogger.log in the same directory as the script.
-# Disclaimer
-This software is intended for educational purposes only. Unauthorized use of this software for malicious purposes is illegal and unethical. The author is not responsible for any misuse of this software.
+Once started, the keylogger will begin capturing keystrokes automatically.
+
+On macOS, the Terminal window will minimize on launch.
+
+Press the ESC key to safely stop the logger.
+
+## Log File
+
+All captured keystrokes are saved to a file named Keylogger.log in the same directory as the script.
+
+## Disclaimer
+
+This project is strictly for educational purposes.
+It was developed as part of an AI-assisted learning experience to explore how code works behind the scenes.
+Unauthorized use of this software for malicious purposes is illegal and unethical.
+The author assumes no responsibility for misuse.
+
+## About This Project
+
+This project marks my first step into AI-driven creativity and coding innovation, blending human intuition with machine guidance — what is known as “Vibe Coding.”
+The goal: to explore, learn, and build responsibly using the power of artificial intelligence.
